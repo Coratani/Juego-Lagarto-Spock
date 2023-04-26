@@ -1,0 +1,39 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: tamagotchi, serif;
+    text-align: center;
+    background-image: url("/src/assets/arcade.jpg");
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px #a1009a;
+
+}
+h1{
+    color: #ff0000;
+}
+p{
+    margin: 10px 0;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.progress-bar{
+    width: 100%;
+    height: 20px;
+    background-color: lightgrey;
+    color: white;
+    text-align: center;
+}
+@font-face {
+    font-family: 'tamagotchi';
+    src:
+            url("/src/assets/Tamagotchi/tamafont.ttf")  format('truetype');/* Safari, Android, iOS */
+
+}
